@@ -1,0 +1,10 @@
+artifact_location: file:///Users/yaren/PycharmProjects/mlops_deneme/pipelines/mlruns/405997319250675682/models/m-f3c11b45cbca423685b05e7605d0a4b4/artifacts
+creation_timestamp: 1766871750050
+experiment_id: '405997319250675682'
+last_updated_timestamp: 1766871753117
+model_id: m-f3c11b45cbca423685b05e7605d0a4b4
+model_type: null
+name: final_model
+source_run_id: 14a245918f6844f6bab3a3ca13c0aff3
+status: 2
+status_message: null

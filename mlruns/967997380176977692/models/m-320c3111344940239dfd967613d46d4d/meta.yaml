@@ -1,0 +1,10 @@
+artifact_location: file:///Users/yaren/PycharmProjects/mlops_deneme/mlruns/967997380176977692/models/m-320c3111344940239dfd967613d46d4d/artifacts
+creation_timestamp: 1766873225230
+experiment_id: '967997380176977692'
+last_updated_timestamp: 1766873228177
+model_id: m-320c3111344940239dfd967613d46d4d
+model_type: null
+name: model
+source_run_id: 418773f5fd9c40d7a41c275169b272b2
+status: 2
+status_message: null
