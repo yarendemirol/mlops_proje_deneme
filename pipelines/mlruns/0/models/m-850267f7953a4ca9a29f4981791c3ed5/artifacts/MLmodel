@@ -1,0 +1,22 @@
+artifact_path: file:///Users/yaren/PycharmProjects/mlops_deneme/pipelines/mlruns/0/models/m-850267f7953a4ca9a29f4981791c3ed5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-850267f7953a4ca9a29f4981791c3ed5
+model_size_bytes: 1637266
+model_uuid: m-850267f7953a4ca9a29f4981791c3ed5
+prompts: null
+run_id: ab10bc6b032a4419a4334e7ce027c77d
+utc_time_created: '2025-12-27 22:34:20.361418'

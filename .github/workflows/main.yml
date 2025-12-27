@@ -2,30 +2,25 @@ name: MLOps CI/CD Pipeline
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
 
 jobs:
-  mlops-pipeline:
+  test-and-build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Set up Python 3.9
+      - uses: actions/checkout@v3
+      - name: Python Setup
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install pytest
+        run: pip install -r requirements.txt
 
-      - name: Run Unit Tests
-        run: |
-          export PYTHONPATH=$PYTHONPATH:.
-          pytest tests/
+      - [cite_start]name: Unit Tests (Feature Logic) # [cite: 25]
+        run: pytest tests/test_features.py
 
-      - name: Build Docker Image
+      - [cite_start]name: Build Docker Image # [cite: 25, 43]
         run: |
-          docker build -t ad-click-service .
+          docker build -t ad-click-service:latest .
+          # Opsiyonel: docker push <registry>/ad-click-service:latest

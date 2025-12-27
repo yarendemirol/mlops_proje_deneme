@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yaren/PycharmProjects/mlops_deneme/pipelines/mlruns/0/a6775ed0c5de4aaaba8bf53295f84dcf/artifacts
+end_time: 1766874865074
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a6775ed0c5de4aaaba8bf53295f84dcf
+run_name: Full_MLOps_Pipeline_Flow
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766874857641
+status: 4
+tags: []
+user_id: yaren

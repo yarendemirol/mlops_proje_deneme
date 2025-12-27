@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yaren/PycharmProjects/mlops_deneme/pipelines/mlruns/0/6dcbf5e51fa34e0489ba173a1efcd220/artifacts
+end_time: 1766874858738
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6dcbf5e51fa34e0489ba173a1efcd220
+run_name: Kisi3_After_Rebalancing
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766874858426
+status: 3
+tags: []
+user_id: yaren
